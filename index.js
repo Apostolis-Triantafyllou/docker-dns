@@ -5,8 +5,7 @@ var opts = require('rc')('dnsproxy', {
   host: '0.0.0.0',
   logging: 'dnsproxy:query',
   domains: {
-    '.docker': '127.0.0.1',
-    '.rancher': '192.168.99.100'
+    '.raspi.local': '192.168.1.222'
   },
   fallback_timeout: 350
 })
